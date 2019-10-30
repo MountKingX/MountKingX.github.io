@@ -1,2 +1,6 @@
 # mountkingx.github.io
-For publication
+
+* Personal page test pharse now
+
+---
+last updated on Oct-2019
