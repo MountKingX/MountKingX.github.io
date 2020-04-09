@@ -1,6 +1,8 @@
 # mountkingx.github.io
 
-* Personal page test pharse now
+* Personal page, static simple version
+* link: https://mountkingx.github.io/
+* dynamic resume: http://kangminxie.com/ (in preparation)
 
 ---
-last updated on Oct-2019
+last updated on MApril-2020
