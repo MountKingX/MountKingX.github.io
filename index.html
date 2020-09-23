@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
           crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <title>Kangmin Xie</title>
     <style>
@@ -46,7 +47,7 @@
 </head>
 
 <body>
-<div class="col-lg-10 col-md-11 col-sm-12 m-auto">
+<div class="col-lg-9 col-md-10 col-sm-12 m-auto">
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark" id="main-nav">
         <div class="container">
             <a class="navbar-brand" href="#">Kangmin</a>
@@ -58,22 +59,16 @@
                     <a class="nav-link" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#kangmin-projects">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" style="color:white;" href="./resume.pdf"
-                        target="_blank" rel="noopener"> View Resume </a>
-                </li>
-            </ul>
         </div>
     </nav>
 
-    <section id="home">
+    <section id="home" class="mx-3">
         <div class="row">
             <div class="col-lg-4">
                 <div id="profile" class="text-center mt-3">
@@ -81,11 +76,8 @@
                     <div class="portrait-title my-3">
                         <h3 itemprop="name">Kangmin Xie</h3>
                         <h5 itemprop="jobTitle">Full-Stack Software Developer</h5>
-                        <h6 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-                            <span itemprop="name">Indeed, Inc</span>
-                        </h6>
                     </div>
-                    <link itemprop="url" href="">
+                    <!-- <link itemprop="url" href=""> -->
                     <ul class="list-inline icon-km" aria-hidden="true">
                         <li class="list-inline-item">
                             <a itemprop="sameAs" href="#contact">
@@ -117,15 +109,18 @@
                 <h1>Biography</h1>
                 <div class="mb-4">
                     <p>
-                        Kangmin is experienced in web development in Spring and React &amp; Redux Frameworks,
-                        familiar with MySQL, HBase and Redis databases, skilled in Hadoop EMR streaming for big data
-                        analytics in Amazon Web Services, with an M.S. in Information Technology from Carnegie Mellon
-                        University - School of Computer Science. Before that, he got his Ph.D. in Surface &amp; Catalysis from the University of
-                        South Carolina. Right now, Kangmin is working for Indeed as a Technical
-                        Business Analyst (full-stack software developer).
+                        Proficient in Java, experienced in Spring and React &amp; Redux full-stack web application development, 
+                        familiar with MySQL and Redis databases, 
+                        and also skilled in Big Data Analytics in Amazon Web Services, 
+                        with an M.S. in Information Technology from Carnegie Mellon University - School of Computer Science.
+                        Before that, he got his Ph.D. in Surface &amp; Catalysis from the University of South Carolina.
                     </p>
                     <p>
-                        Kangmin got started with web development when taking J2EE Web Application Development course from Prof. Jeff Eppinger, where he learned about the MVC pattern, ORM, JSP/JSTL, Transaction, Web Security and was able to develop a monolithic webapp in J2EE. Later in RESTful Web Services course, Kangmin began to transit to Spring world: Spring MVC, Spring Boot, Spring Security, Spring Data JPA, etc. Kangmin also likes Cloud Computing which is the core course in his CMU journey and built high scalable Web Services for Twitter Analytics.
+                        Starting from J2EE Web Application Development course at CMU, 
+                        Kangmin learned the MVC pattern, ORM, JSP/JSTL, Transaction, Web Security 
+                        and was able to develop a monolithic webapp with J2EE & Spring MVC, Boot, Security, OAuth2, Data JPA, JOOQ, etc. 
+                        In the past two years, he is primarily working on projects where Spring uses as back-end only and React &amp; Redux as the front-end 
+                        Kangmin also likes Cloud Computing which is a critical course to build high scalable Web Services.
                     </p>
                 </div>
                 <div class="row">
@@ -133,10 +128,11 @@
                         <h3>Interests</h3>
                         <ul class="ul-interests">
                             <li>Spring &amp; Spring Boot</li>
-                            <li>React &amp; Redux</li>
+                            <li>React &amp; Redux, TypeScript</li>
                             <li>Cloud Computing, AWS</li>
-                            <li>MySQL, Hibernate</li>
+                            <li>MySQL, JOOQ, Hibernate</li>
                             <li>Docker, Redis</li>
+
                         </ul>
                     </div>
 
@@ -219,7 +215,7 @@
     <!-- Experience -->
     <section id="experience">
         <div>
-            <div class="row card mx-3 mt-5">
+            <div class="row card mx-3 mt-4">
                 <div class="col-lg-12 col-md-12 card card-body text-white" style="background-color: #27496d;">
                     <h2>Experience</h2>
                 </div>
@@ -253,16 +249,17 @@
                                 </span>
                                     <div class="card-text">
                                         <ul>
-                                            <li>Develop RESTful and RPC services in Spring &amp; Spring Boot Framework along with MySQL,
+                                            <li>Developing
+                                                 RESTful and RPC services in Spring &amp; Spring Boot Framework along with MySQL,
                                                 Redis
                                             </li>
-                                            <li>Develop frontend with React &amp; Redux Framework, as well as flow and TypeScript
+                                            <li>Developing frontend with React &amp; Redux Framework, with the help of Flow and TypeScript
                                             </li>
-                                            <li>Implement automated webapp testing with Python Selenium webdriver</li>
-                                            <li>Build and deploy products in Jenkins pipeline and support internal teams
+                                            <li>Implementing automated webapp testing with Python Selenium webdriver</li>
+                                            <li>Building and deploying products in Jenkins pipeline and support internal teams
                                             </li>
                                             <li>
-                                                Tools: GitLab, Jira, Maven, Gradle, Ant, AWS (RDS, S3, Lambda), Docker, IntelliJ, Pycharm
+                                                Tools: GitLab, Jira, Maven, Gradle, Ant, AWS (RDS, S3, Lambda), Docker, Hadoop
                                             </li>
                                         </ul>
                                     </div>
@@ -346,13 +343,10 @@
                                     <div class="card-text">
                                         <ul>
                                             <li>
-                                                Conducted catalytic activity tests on model catalysts under atmospheric
-                                                pressure and UHV chamber to fundamentally understand metal-metal,
-                                                metal-support interaction
+                                                Conducted fundamental catalytic activity study on model catalyst surface under both atmospheric pressure and UHV condition
                                             </li>
                                             <li>
-                                                Processed and evaluated a large set of activity data programmingly for
-                                                5+ years
+                                                Processed and evaluated a large set of activity data programmingly
                                             </li>
                                             <li>
                                                 Instructed Physical Chemistry recitations &amp; labs for 9 semesters, winner
@@ -370,8 +364,8 @@
     </section>
 
     <!-- Projects -->
-    <section id="kangmin-projects">
-        <div class="row card mx-3 mt-5">
+    <section id="projects">
+        <div class="row card mx-3 mt-4">
             <div class="col-lg-12 col-md-12 card card-body text-white" style="background-color: orange;">
                 <h2>Previous Selected Projects</h2>
             </div>
@@ -503,7 +497,7 @@
     </section>
 
     <section id="contact">
-        <div class="row card mx-3 mt-5">
+        <div class="row card mx-3 mt-4">
             <div class="col-lg-12 col-md-12 card card-body text-white" style="background-color: #27496d;">
                 <h2>Contact Me</h2>
             </div>
@@ -559,7 +553,7 @@
         <div class="m-auto">
             <div class="text-center">
                 <p class="mb-md-1">
-                    &copy; 2016-2020 by Dr. Kangmin Xie. All rights reserved.
+                    &copy; 2017-2020 by Dr. Kangmin Xie. All rights reserved.
                 </p>
             </div>
         </div>
