@@ -15,7 +15,8 @@
     <style>
         body {
             position: relative;
-            margin-top: 40px;
+            margin: 40px 0 0;
+            padding: 0;
             font-family: Georgia, serif;
         }
         h2 {
@@ -47,7 +48,7 @@
 </head>
 
 <body>
-<div class="col-lg-9 col-md-10 col-sm-12 m-auto">
+<div class="col-lg-11 col-md-12 col-sm-12 m-auto">
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark" id="main-nav">
         <div class="container">
             <a class="navbar-brand" href="#">Kangmin</a>
@@ -106,12 +107,11 @@
             </div>
 
             <div class="col-lg-7 mx-2" itemprop="description">
-                <h1>Biography</h1>
+                <h1>Self-Introduction</h1>
                 <div class="mb-4">
                     <p>
-                        Proficient in Java, experienced in Spring and React &amp; Redux full-stack web application development, 
-                        familiar with MySQL and Redis databases, 
-                        and also skilled in Big Data Analytics in Amazon Web Services, 
+                        Proficient in Java, experienced in Spring and React &amp; Redux full-stack web development, 
+                        familiar with MySQL and Redis databases, skilled in Hadoop EMR streaming in Amazon Web Services, 
                         with an M.S. in Information Technology from Carnegie Mellon University - School of Computer Science.
                         Before that, he got his Ph.D. in Surface &amp; Catalysis from the University of South Carolina.
                     </p>
@@ -119,13 +119,13 @@
                         Starting from J2EE Web Application Development course at CMU, 
                         Kangmin learned the MVC pattern, ORM, JSP/JSTL, Transaction, Web Security 
                         and was able to develop a monolithic webapp with J2EE & Spring MVC, Boot, Security, OAuth2, Data JPA, JOOQ, etc. 
-                        In the past two years, he is primarily working on projects where Spring uses as back-end only and React &amp; Redux as the front-end 
+                        In the past two years, he has primarily worked on projects where Spring uses as back-end only and React &amp; Redux as the front-end. 
                         Kangmin also likes Cloud Computing which is a critical course to build high scalable Web Services.
                     </p>
                 </div>
                 <div class="row">
                     <div class="col-md-5">
-                        <h3>Interests</h3>
+                        <h3>Focuses</h3>
                         <ul class="ul-interests">
                             <li>Spring &amp; Spring Boot</li>
                             <li>React &amp; Redux, TypeScript</li>
@@ -143,7 +143,7 @@
                                 <i class="fa-li fas fa-graduation-cap"></i>
                                 <div class="description">
                                     <p class="degree">M.S. in Information Technology, 2018</p>
-                                    <p class="institution">Carnegie Mellon University</p>
+                                    <p class="institution">Carnegie Mellon University, School of Computer Science</p>
                                 </div>
                             </li>
                             <li>
@@ -249,17 +249,19 @@
                                 </span>
                                     <div class="card-text">
                                         <ul>
-                                            <li>Developing
-                                                 RESTful and RPC services in Spring &amp; Spring Boot Framework along with MySQL,
-                                                Redis
-                                            </li>
-                                            <li>Developing frontend with React &amp; Redux Framework, with the help of Flow and TypeScript
-                                            </li>
-                                            <li>Implementing automated webapp testing with Python Selenium webdriver</li>
-                                            <li>Building and deploying products in Jenkins pipeline and support internal teams
+                                            <li>
+                                                Developed RESTful and RPC web services in Spring &amp; Spring Boot with MySQL, Redis
                                             </li>
                                             <li>
-                                                Tools: GitLab, Jira, Maven, Gradle, Ant, AWS (RDS, S3, Lambda), Docker, Hadoop
+                                                Developed front-end in React &amp; Redux Framework with Flow and TypeScript
+                                            </li>
+                                            <li>
+                                                Implemented automated webapp functional tests with Python and Selenium webdriver</li>
+                                            <li>
+                                                Built and deployed products in Jenkins pipeline and support internal teams
+                                            </li>
+                                            <li>
+                                                Tools: GitLab, Jenkins, Ant, Maven, Gradle, AWS (RDS, S3, Lambda), JOOQ, Flyway, Docker, Hadoop
                                             </li>
                                         </ul>
                                     </div>
@@ -287,7 +289,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title exp-title mt-0 mb-1 font-weight-bold">
                                         Software Development Consultant</h4>
-                                    <h5 class="card-title exp-company my-0">Carnegie Mellon University, eBusiness Practicum</h5>
+                                    <h5 class="card-title exp-company my-0">Carnegie Mellon University, eBusiness Practicum sponsored by Traq Global Ltd</h5>
                                     <div class="text-muted exp-meta">
                                         May 2018 – Aug 2018
                                         <span class="middot-divider"> in </span>
@@ -297,16 +299,14 @@
 
                                         <ul>
                                             <li>
-                                                Delivered big data solution to evaluate the performance &amp; recovery of
-                                                injured athletes, falling chance of seniors
+                                                Developed and deployed a Big Data Injury Analytics platform that can evaluate the performance of injured athletes and seniors in real-time, present global and specific groups’ rank, meanwhile offer activity suggestions
                                             </li>
                                             <li>
                                                 Developed Trazer web application in a full-stack manner under ASP.NET framework using C#, JavaScript
                                                 and Microsoft SQL Server
                                             </li>
                                             <li>
-                                                Implemented a Flask RESTful API to improve the Trazer Unit's new statistics
-                                                reporting structure
+                                                Integrated new statistics Flask RESTful API with pre-existing data reporting structure
                                             </li>
                                         </ul>
                                     </div>
@@ -334,7 +334,7 @@
                                     <h4 class="card-title exp-title mt-0 mb-1 font-weight-bold">
                                         Graduate Research Assistant</h4>
                                     <h5 class="card-title exp-company my-0">
-                                        University of South Carolina</h5>
+                                        University of South Carolina, Department of Chemistry</h5>
                                     <div class="text-muted exp-meta">
                                         Aug 2011 – Dec 2016
                                         <span class="middot-divider"> in </span>
@@ -380,15 +380,14 @@
                         </div>
                         <span class="ml-4 font-italic"> - Keywords: High Concurrency, Web Service, MapReduce, MySQL, HBase, Database Replication </span>
                         <ul>
-                            <li>Developed and deployed an undertow web service for handling a high volume of concurrent
-                                requests (~20,000 RPS) for encoding &amp; decoding QR strings, predicting new twitter’s
-                                hashtag, extracting topic words (TF-IDF) and most influential twitters in given range
+                            <li>
+                                Developed and deployed an undertow web service for handling a high volume of concurrent requests (~10,000 RPS) for predicting new twitter’s hashtag, extracting topic words (TF-IDF) and most influential tweeters in given range
                             </li>
-                            <li>Provisioned Hadoop Elastic MapReduce (EMR) streaming workflow in AWS to extract and
-                                transform ~1TB raw Twitter data, followed by loading into MySQL and Hbase databases
+                            <li>
+                                 Provisioned Hadoop Elastic MapReduce (EMR) streaming workflow in AWS to implement extract transform and load (ETL) processes on ~1TB raw Twitter data into MySQL and HBase databases
                             </li>
-                            <li>Designed and optimized MySQL &amp; HBase schemas for scaling up and improved throughput by
-                                20%
+                            <li>
+                                Designed and optimized database schema and enhanced overall throughput by ~20% with $0.83/hour budget
                             </li>
                         </ul>
 <!--                         <div class="ml-4">
@@ -442,22 +441,16 @@
                      - Keywords: J2EE Web Application, MySQL, RESTful Web Services, Spring Boot, Tomcat, EC2</span>
                         <ul>
                             <li>
-                                Built a financial web app for mutual fund transactions in J2EE MVC Framework from
-                                scratch, which allow customers to deposit/receive check, buy/sell funds and do personal
-                                research, allow employees to manage customers, create new fund, change fund prices and
-                                complete daily transactions
+                                Built a financial transaction system under Java EE MVC Framework to allow customers buy & sell funds, research fund history, while employees can manage customers, create fund, change prices and complete daily transactions
                             </li>
                             <li>
-                                Constructed front-end sites with Java Server Page and JavaScript, styling in Bootstrap
-                                while adopting MySQL as backend to ensure strict ACID properties
+                                Developed front-end with Java Server Page (JSP) and Bootstrap 4, backend with MySQL to ensure ACID properties
                             </li>
                             <li>
-                                Host this application in Amazon EC2, with Apache Tomcat as web server and SSL protocol
-                                applied
+                                Host this application in Amazon EC2, utilized Apache Tomcat as web server with SSL protocol applied
                             </li>
                             <li>
-                                Enhanced this system to support RESTful web service by stateless server design (Spring
-                                Boot)
+                                Improved this system into Spring Boot to support RESTful API  by stateless server design
                             </li>
                         </ul>
                         <div class="ml-4">
@@ -483,11 +476,11 @@
                         <ul>
                             <li>Developed a food health level detection API in Amazon EC2 able to present healthy score in real-time for each image that users upload to S3 bucket <br/>(* best team out of fifteen)
                             </li>
-                            <li>Configured lambda function that triggered by SNS from S3 to handle labels inquiring job
+                            <li>Configured lambda function that triggered by SNS from S3 to handle labels' inquiring job
                             </li>
                             <li>Collecting food labels by querying vision APIs from Amazon Rekognition, Azure and GCP
                             </li>
-                            <li>Built a Django server to obtain labels from DynamoDB and calculate standardized score for graph rendering
+                            <li>Developed a Django server to acquire labels from DynamoDB and calculate standardized score for graph rendering
                             </li>
                         </ul>
                     </div>
@@ -553,7 +546,7 @@
         <div class="m-auto">
             <div class="text-center">
                 <p class="mb-md-1">
-                    &copy; 2017-2020 by Dr. Kangmin Xie. All rights reserved.
+                    &copy; 2016-2020 by Dr. Kangmin Xie. All rights reserved.
                 </p>
             </div>
         </div>
