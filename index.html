@@ -23,8 +23,8 @@
             margin-bottom: 20px;
         }
         .nav-item, .navbar-brand {
-            font-size: 1.1rem;
-            padding-right: 1.1rem;
+            font-size: 1.2rem;
+            padding-right: 1.2rem;
         }
         .img-circle {
             border-radius: 50%;
@@ -36,9 +36,8 @@
         .institution {
             font-size: .80rem;
             margin-bottom: 5px;
-            /*color:rgba(0,0,0,0.8)*/
         }
-        #home {
+        #summary {
             padding-top: 60px;
             background-color: #27496d;
             color: white;
@@ -46,34 +45,27 @@
         }
     </style>
 </head>
-
 <body>
-<div class="col-lg-11 col-md-12 col-sm-12 m-auto">
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark" id="main-nav">
-        <div class="container">
-            <a class="navbar-brand" href="#">Kangmin</a>
-            <ul class="navbar-nav mr-auto" id="naviTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="home" class="mx-3">
+<!-- NAV -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark" id="main-nav">
+    <div class="container">
+        <span><a class="navbar-brand" href="#">Kangmin</a></span>
+        <ul class="navbar-nav mr-auto" id="naviTab" role="tablist">
+            <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- MAIN -->
+<div class="col-xl-10 col-lg-11 col-md-12 m-auto">
+    <!-- Summary -->
+    <section id="summary">
         <div class="row">
             <div class="col-lg-4">
                 <div id="profile" class="text-center mt-3">
-                    <img class="img-circle" src="./Avatar.png" alt="Avatar">
+                    <img class="img-circle" src="./kangminx.png" alt="Avatar">
                     <div class="portrait-title my-3">
                         <h3 itemprop="name">Kangmin Xie</h3>
                         <h5 itemprop="jobTitle">Full-Stack Software Developer</h5>
@@ -107,37 +99,37 @@
             </div>
 
             <div class="col-lg-7 mx-2" itemprop="description">
-                <h1>Self-Introduction</h1>
+                <h2>Summary</h2>
                 <div class="mb-4">
                     <p>
-                        Proficient in Java, experienced in Spring and React &amp; Redux full-stack web development, 
+                        Proficient in Java, JavaScript and Python, two years+ experience in web development in Spring and React &amp; Redux,
                         familiar with MySQL and Redis databases, skilled in Hadoop EMR streaming in Amazon Web Services, 
                         with an M.S. in Information Technology from Carnegie Mellon University - School of Computer Science.
-                        Before that, he got his Ph.D. in Surface &amp; Catalysis from the University of South Carolina.
                     </p>
                     <p>
                         Starting from J2EE Web Application Development course at CMU, 
-                        Kangmin learned the MVC pattern, ORM, JSP/JSTL, Transaction, Web Security 
-                        and was able to develop a monolithic webapp with J2EE & Spring MVC, Boot, Security, OAuth2, Data JPA, JOOQ, etc. 
-                        In the past two years, he has primarily worked on projects where Spring uses as back-end only and React &amp; Redux as the front-end. 
-                        Kangmin also likes Cloud Computing which is a critical course to build high scalable Web Services.
+                        where Kangmin learned about the MVC pattern, ORM, JSP/JSTL, Transaction, Web Security, 
+                        he developed multiple monolithic webapp with J2EE, and then Spring MVC, Boot, Security, OAuth2, Data JPA, JOOQ, etc. 
+                        After joining in Indeed, he has primarily worked on projects where Spring uses as back-end only and React &amp; Redux as the front-end. 
                     </p>
                 </div>
                 <div class="row">
+                    <!-- Tech Stacks-->
                     <div class="col-md-5">
-                        <h3>Focuses</h3>
+                        <h4>Primary Stacks</h4>
                         <ul class="ul-interests">
-                            <li>Spring &amp; Spring Boot</li>
-                            <li>React &amp; Redux, TypeScript</li>
-                            <li>Cloud Computing, AWS</li>
-                            <li>MySQL, JOOQ, Hibernate</li>
-                            <li>Docker, Redis</li>
+                            <li>Spring &amp; Spring Boot, J2EE</li>
+                            <li>React, Redux, TypeScript</li>
+                            <li>MySQL (JOOQ, Hibernate), Redis</li>
+                            <li>AWS, Jenkins, Docker</li>
+                            <li>Bootstrap, Material-UI</li>
 
                         </ul>
                     </div>
 
+                    <!-- Education -->
                     <div class="col-md-7">
-                        <h3>Education</h3>
+                        <h4>Education</h4>
                         <ul class="ul-edu fa-ul">
                             <li>
                                 <i class="fa-li fas fa-graduation-cap"></i>
@@ -165,7 +157,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-center mt-1 py-3" style="background:orange;">
+        <!-- <div class="text-center mt-1 py-3" style="background:orange;">
             <div class="row featurette">
                 <div class="col-md-12 section-heading">
                 </div>
@@ -208,16 +200,16 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        
+        </div> -->
     </section>
+
     <!-- Experience -->
     <section id="experience">
-        <div>
-            <div class="row card mx-3 mt-4">
-                <div class="col-lg-12 col-md-12 card card-body text-white" style="background-color: #27496d;">
-                    <h2>Experience</h2>
+        <div class="row">
+            <div class="card mt-1 mx-3">
+                <div class="card card-body py-2 text-white" style="background-color: orange;">
+                <!-- <div class="card card-body text-white" style="background-color: #27496d;"> -->
+                    <span class="h2">Experience</span>
                 </div>
                 <div class="col-lg-12 col-md-12">
                     <div class="row experience">
@@ -357,187 +349,191 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- row experience -->
-                </div><!-- lg-8 -->
-            </div><!-- row -->
-        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- row -->
     </section>
 
     <!-- Projects -->
-    <section id="projects">
-        <div class="row card mx-3 mt-4">
-            <div class="col-lg-12 col-md-12 card card-body text-white" style="background-color: orange;">
-                <h2>Previous Selected Projects</h2>
+    <section id="projects2">
+        <div class="row">
+            <div class="card mt-1 mx-3">
+                <div class="card card-body py-2 text-white" style="background-color: #27496d;">
+                    <span class="h2">Selected Projects</span>
+                </div>
+                <div class="">
+                    <div class="card pl-2 experience course">
+                        <div class="card-body">
+                            <h4 class="card-title exp-title my-0 font-weight-bold">
+                                High Performance Twitter Analytics Web Services
+                            </h4>
+                            <div class="card-subtitle my-0 article-metadata text-muted">
+                                <span class="middot-divider"></span>Feb 2018 - May 2018
+                            </div>
+                            <span class="ml-4 font-italic"> - Keywords: High Concurrency, Web Service, MapReduce, MySQL, HBase, Database Replication </span>
+                            <ul>
+                                <li>
+                                    Developed and deployed an undertow web service for handling a high volume of concurrent requests (~10,000 RPS) for predicting new twitter’s hashtag, extracting topic words (TF-IDF) and most influential tweeters in given range
+                                </li>
+                                <li>
+                                    Provisioned Hadoop Elastic MapReduce (EMR) streaming workflow in AWS to implement extract transform and load (ETL) processes on ~1TB raw Twitter data into MySQL and HBase databases
+                                </li>
+                                <li>
+                                    Designed and optimized database schema and enhanced overall throughput by ~20% with $0.83/hour budget
+                                </li>
+                            </ul>
+    <!--                         <div class="ml-4">
+                                <a class="card-link" href="#" target="_blank" rel="noopener">
+                                    Amanzon EC2 one instance demo
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="card pl-2 experience course">
+                        <div class="card-body"><a
+                                href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
+                                target="_blank" rel="noopener"></a>
+                            <h4 class="card-title exp-title my-0 font-weight-bold">
+                            Cloud Storage and Databases</h4>
+                            <div class="card-subtitle my-0 article-metadata text-muted">
+                                <span class="middot-divider"></span>Feb 2018 - Mar 2018
+                            </div>
+                            <span class="ml-4 font-italic">
+                        - Keywords: Amazon RDS, HBase, MongoDB, Java Multi-threading Programming, Concurrent Control</span>
+                            <div class="card-text">
+                            </div>
+                            <ul>
+                                <li>Deployed heterogeneous backend databases for a social network web service in undertow
+                                    servlets
+                                </li>
+                                <li>Provisioned Amazon RDS for basic login authentication of account, HBase for storing a
+                                    social graph of users, and MongoDB for user homepage's timeline construction
+                                </li>
+                                <li>Implemented multiple coordinators to handle read/write operations with replication
+                                    schemes for key-value storage across different geographical regions
+                                </li>
+                            </ul>
+    <!--                         <div class="ml-4">
+                                <a class="card-link" href="#" target="_blank" rel="noopener">
+                                    Amanzon EC2 one instance demo
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="card pl-2 experience course">
+                        <div class="card-body">
+                            <h4 class="card-title exp-title my-0 font-weight-bold">
+                            Online Mutual Fund Financial Web
+                            Development and Web Services</h4>
+                            <div class="card-subtitle my-0 article-metadata text-muted">
+                                <span class="middot-divider"></span>Jan 2018– Feb 2018
+                            </div>
+                            <span class="ml-4 font-italic">
+                        - Keywords: J2EE Web Application, MySQL, RESTful Web Services, Spring Boot, Tomcat, EC2</span>
+                            <ul>
+                                <li>
+                                    Built a financial transaction system under Java EE MVC Framework to allow customers buy & sell funds, research fund history, while employees can manage customers, create fund, change prices and complete daily transactions
+                                </li>
+                                <li>
+                                    Developed front-end with Java Server Page (JSP) and Bootstrap 4, backend with MySQL to ensure ACID properties
+                                </li>
+                                <li>
+                                    Host this application in Amazon EC2, utilized Apache Tomcat as web server with SSL protocol applied
+                                </li>
+                                <li>
+                                    Improved this system into Spring Boot to support RESTful API  by stateless server design
+                                </li>
+                            </ul>
+                            <div class="ml-4">
+    <!--                             <a class="card-link" href="#" target="_blank" rel="noopener">
+                                    Amanzon EC2 one instance demo to be updated
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pl-2 experience course">
+                        <div class="card-body"><a
+                                href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
+                                target="_blank" rel="noopener"></a>
+                            <h4 class="card-title exp-title my-0 font-weight-bold">
+                            Cloud Vision Web Service for Dietary Analysis</h4>
+                            <div class="card-subtitle my-0 article-metadata text-muted">
+                                <span class="middot-divider"></span>Sep 2017 - Oct 2017
+                            </div>
+                            <span class="ml-4 font-italic">
+                        - Keywords: Amazon EC2, S3, SNS, DynamoDB, Rekognition, Django</span>
+                            <div class="card-text">
+                            </div>
+                            <ul>
+                                <li>Developed a food health level detection API in Amazon EC2 able to present healthy score in real-time for each image that users upload to S3 bucket <br/>(* best team out of fifteen)
+                                </li>
+                                <li>Configured lambda function that triggered by SNS from S3 to handle labels' inquiring job
+                                </li>
+                                <li>Collecting food labels by querying vision APIs from Amazon Rekognition, Azure and GCP
+                                </li>
+                                <li>Developed a Django server to acquire labels from DynamoDB and calculate standardized score for graph rendering
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12">
-                <div class="card experience course">
-                    <div class="card-body">
-                        <h4 class="card-title exp-title my-0 font-weight-bold">
-                            High Performance Twitter Analytics Web Services
-                        </h4>
-                        <div class="card-subtitle my-0 article-metadata text-muted">
-                            <span class="middot-divider"></span>Feb 2018 - May 2018
-                        </div>
-                        <span class="ml-4 font-italic"> - Keywords: High Concurrency, Web Service, MapReduce, MySQL, HBase, Database Replication </span>
-                        <ul>
-                            <li>
-                                Developed and deployed an undertow web service for handling a high volume of concurrent requests (~10,000 RPS) for predicting new twitter’s hashtag, extracting topic words (TF-IDF) and most influential tweeters in given range
-                            </li>
-                            <li>
-                                 Provisioned Hadoop Elastic MapReduce (EMR) streaming workflow in AWS to implement extract transform and load (ETL) processes on ~1TB raw Twitter data into MySQL and HBase databases
-                            </li>
-                            <li>
-                                Designed and optimized database schema and enhanced overall throughput by ~20% with $0.83/hour budget
-                            </li>
-                        </ul>
-<!--                         <div class="ml-4">
-                            <a class="card-link" href="#" target="_blank" rel="noopener">
-                                Amanzon EC2 one instance demo
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="card experience course">
-                    <div class="card-body"><a
-                            href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-                            target="_blank" rel="noopener"></a>
-                        <h4 class="card-title exp-title my-0 font-weight-bold">
-                        Cloud Storage and Databases</h4>
-                        <div class="card-subtitle my-0 article-metadata text-muted">
-                            <span class="middot-divider"></span>Feb 2018 - Mar 2018
-                        </div>
-                        <span class="ml-4 font-italic">
-                     - Keywords: Amazon RDS, HBase, MongoDB, Java Multi-threading Programming, Concurrent Control</span>
-                        <div class="card-text">
-                        </div>
-                        <ul>
-                            <li>Deployed heterogeneous backend databases for a social network web service in undertow
-                                servlets
-                            </li>
-                            <li>Provisioned Amazon RDS for basic login authentication of account, HBase for storing a
-                                social graph of users, and MongoDB for user homepage's timeline construction
-                            </li>
-                            <li>Implemented multiple coordinators to handle read/write operations with replication
-                                schemes for key-value storage across different geographical regions
-                            </li>
-                        </ul>
-<!--                         <div class="ml-4">
-                            <a class="card-link" href="#" target="_blank" rel="noopener">
-                                Amanzon EC2 one instance demo
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="card experience course">
-                    <div class="card-body">
-                        <h4 class="card-title exp-title my-0 font-weight-bold">
-                        Online Mutual Fund Financial Web
-                        Development and Web Services</h4>
-                        <div class="card-subtitle my-0 article-metadata text-muted">
-                            <span class="middot-divider"></span>Jan 2018– Feb 2018
-                        </div>
-                        <span class="ml-4 font-italic">
-                     - Keywords: J2EE Web Application, MySQL, RESTful Web Services, Spring Boot, Tomcat, EC2</span>
-                        <ul>
-                            <li>
-                                Built a financial transaction system under Java EE MVC Framework to allow customers buy & sell funds, research fund history, while employees can manage customers, create fund, change prices and complete daily transactions
-                            </li>
-                            <li>
-                                Developed front-end with Java Server Page (JSP) and Bootstrap 4, backend with MySQL to ensure ACID properties
-                            </li>
-                            <li>
-                                Host this application in Amazon EC2, utilized Apache Tomcat as web server with SSL protocol applied
-                            </li>
-                            <li>
-                                Improved this system into Spring Boot to support RESTful API  by stateless server design
-                            </li>
-                        </ul>
-                        <div class="ml-4">
-<!--                             <a class="card-link" href="#" target="_blank" rel="noopener">
-                                Amanzon EC2 one instance demo to be updated
-                            </a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="card experience course">
-                    <div class="card-body"><a
-                            href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-                            target="_blank" rel="noopener"></a>
-                        <h4 class="card-title exp-title my-0 font-weight-bold">
-                        Cloud Vision Web Service for Dietary Analysis</h4>
-                        <div class="card-subtitle my-0 article-metadata text-muted">
-                            <span class="middot-divider"></span>Sep 2017 - Oct 2017
-                        </div>
-                        <span class="ml-4 font-italic">
-                     - Keywords: Amazon EC2, S3, SNS, DynamoDB, Rekognition, Django</span>
-                        <div class="card-text">
-                        </div>
-                        <ul>
-                            <li>Developed a food health level detection API in Amazon EC2 able to present healthy score in real-time for each image that users upload to S3 bucket <br/>(* best team out of fifteen)
-                            </li>
-                            <li>Configured lambda function that triggered by SNS from S3 to handle labels' inquiring job
-                            </li>
-                            <li>Collecting food labels by querying vision APIs from Amazon Rekognition, Azure and GCP
-                            </li>
-                            <li>Developed a Django server to acquire labels from DynamoDB and calculate standardized score for graph rendering
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div><!-- row -->
     </section>
-
+    
+    <!-- Contact -->
     <section id="contact">
-        <div class="row card mx-3 mt-4">
-            <div class="col-lg-12 col-md-12 card card-body text-white" style="background-color: #27496d;">
-                <h2>Contact Me</h2>
-            </div>
-            <div class="col-lg-12 col-md-12 mt-3">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <address>
-                            <strong>Dr. Kangmin Xie</strong><br/>
-                            Email: kangmin.xie at gmail.com <br/>
-                        </address>
-                        <address>
-                            <strong>Carnegie Mellon University</strong><br/>
-                            5000 Forbes Avenue<br/>
-                            Pittsburgh, Pennsylvania 15213<br/>
-                            United States
-                        </address>
-                        <address>
-                            <strong>Indeed Champion Office</strong><br/>
-                            6433 Champion Grandview Way<br/>
-                            Austin, TX 78750<br/>
-                            United States
-                        </address>
+        <div class="row mt-1 mb-3">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card py-2 col-12 text-white" style="background-color: orange;">
+                        <div class="h2">Contact Me</div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="py-1">
-                            <b>Find Carnegie Mellon University</b>
-                        </div>
-                        <div class="map">
-                            <iframe title="CMU-Pittsburgh" width="360" height="240" style="border:0" }}
-                                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJkZqj4iPyNIgRkRiPR6mXTt4&key=AIzaSyClHQkSRLUQIbZi_7PNFzA1SzhXHRmUMso"></iframe>
+                    <div class="py-2 px-3">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                                <address>
+                                    <strong>Dr. Kangmin Xie</strong><br/>
+                                    Email: kangmin.xie at gmail.com <br/>
+                                </address>
+                                <address>
+                                    <strong>Carnegie Mellon University</strong><br/>
+                                    5000 Forbes Avenue<br/>
+                                    Pittsburgh, Pennsylvania 15213<br/>
+                                    United States
+                                </address>
+                                <address>
+                                    <strong>Indeed Champion Office</strong><br/>
+                                    6433 Champion Grandview Way<br/>
+                                    Austin, TX 78750<br/>
+                                    United States
+                                </address>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="py-1">
+                                    <b>Find Carnegie Mellon University</b>
+                                </div>
+                                <div class="map">
+                                    <iframe title="CMU-Pittsburgh" max-width="360" height="240" style="border:0" }}
+                                            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJkZqj4iPyNIgRkRiPR6mXTt4&key=AIzaSyClHQkSRLUQIbZi_7PNFzA1SzhXHRmUMso"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+                                <div class="py-1">
+                                    <b>Find Austin Champion Campus</b>
+                                </div>
+                                <div class="map">
+                                    <iframe title="Austin-Indeed-Champion" max-width="360" height="240" style="border:0" }}
+                                            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJpTHksMk0W4YRmDjQB24jtU0&key=AIzaSyDy3h_h6NKLmnlCAfsmbxNOHBWXT4JJD3o"></iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
-                        <div class="py-1">
-                            <b>Find Austin Champion Campus below</b>
-                        </div>
-                        <div class="map">
-                            <iframe title="Austin-Indeed-Champion" width="360" height="240" style="border:0" }}
-                                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJpTHksMk0W4YRmDjQB24jtU0&key=AIzaSyDy3h_h6NKLmnlCAfsmbxNOHBWXT4JJD3o"></iframe>
-                        </div>
-                    </div>
-                </div>
+                <div>
             </div>
         </div>
     </section>
-
-    <div style="margin-top:60px;"></div>
 </div>
 
 <!-- FOOTER -->
@@ -546,13 +542,13 @@
         <div class="m-auto">
             <div class="text-center">
                 <p class="mb-md-1">
-                    &copy; 2016-2020 by Dr. Kangmin Xie. All rights reserved.
+                    &copy; 2016-2020 by Dr. Kangmin Xie. All Rights Reserved.
                 </p>
             </div>
         </div>
     </div>
 </footer>
-
+<!-- JS -->
 <!-- DO NOT USE SLIM VERSION OF JQUERY -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
